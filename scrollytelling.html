@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Vidaloka">
+    <link href="style.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/25cb7ed86c.js" crossorigin="anonymous"></script>
+    <title>Scrollytelling</title>
+
+  </head>
+
+  <body>
+    <h1>the seasons</h1> 
+    <main>
+        <section id="scrolly">
+            <div class="background">
+                <p>Seasons</p>
+            </div>
+                <article>
+                  <div class="step" data-step="Summer" data-backgroundimage="url(summer.jpg)">
+                      <p>Too hot for me szn.</p>
+                  </div>
+                  <div class="step" data-step="Fall" data-backgroundimage="url(fall.jpg)">
+                      <p>Scarves and jeans szn.</p>
+                  </div>
+                  <div class="step" data-step="Winter" data-backgroundimage="url(winter.jpg)">
+                      <p>Stay inside szn.</p>
+                  </div>
+                  <div class="step" data-step="Spring" data-backgroundimage="url(spring.jpg)">
+                      <p>Flower szn.</p>
+                </div>
+              </article>
+        </section>
+
+        <section id="endofpage"></section>
+    </main>
+    
+    <!---Import scrollama-->
+    <script src="https://unpkg.com/scrollama" crossorigin="anonymous"></script>
+    <script src="main.js"></script>   
+    <!---Import intersection observer-->
+    <script src="https://unpkg.com/intersection-observer@0.5.1/intersection-observer.js" crossorigin="anonymous"></script>
+
+<!------>
+
+  </body>
+  </html>
