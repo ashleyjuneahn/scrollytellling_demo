@@ -30,7 +30,7 @@ h1 {
     margin: 0;
     background-color: #8a8a8a;
     top: 10px;
-    height: 600px;
+    height: 650px;
     max-width: 100%;
     background-image: url('seasons.jpg');
     background-size: cover;
@@ -39,7 +39,7 @@ h1 {
   .background p {
     font-size: 80px;
     text-align: left;
-    padding-top: 15%;
+    padding-top: 35%;
     font-weight: bold;
   }
 
